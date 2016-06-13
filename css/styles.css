@@ -587,12 +587,14 @@ Hero
 }
 .hero h1 {
     margin: 200px 0 45px 0;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 45px;
+    color: #484438;
 }
 .hero h1 span {
     display: inline-block;
-    color: #a1a9b0;
+    font-size: 35px;
+    color: #fff;
 }
 #home {
     width: 100%;

@@ -585,8 +585,8 @@ Hero
     background-size: cover;
     color: #fff;
 }
-.hero h1 {
-    margin: 200px 0 45px 0;
+.hero-content {
+    margin: 450px 0 45px 0;
     font-weight: 500;
     font-size: 45px;
     color: #484438;

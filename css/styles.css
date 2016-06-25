@@ -422,6 +422,7 @@ Tables
 table {
     border-spacing: 0;
     border-collapse: collapse;
+    color: #fff;
 }
 
 /* ==========================================================================
@@ -531,7 +532,7 @@ Navigation
     width: 35px;
     height: 5px;
     border-radius: 1px;
-    background: #fff;
+    background: #1C4596;
     cursor: pointer;
 }
 .nav-toggle span:before {
@@ -566,7 +567,8 @@ Navigation
     height: 26px;
 }
 .navicon p {
-    margin: 1px 50px 0 0
+    margin: 1px 50px 0 0;
+    color: #1C4596;
 }
 .navicon-fixed {
     position: fixed;
@@ -578,6 +580,7 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
@@ -586,15 +589,17 @@ Hero
     color: #fff;
 }
 .hero-content {
-    margin: 450px 0 45px 0;
-    font-weight: 500;
-    font-size: 45px;
-    color: #484438;
+    margin: 300px 0 45px 0;
+    font-weight: 700;
+    font-size: 1.95em;
+    color: #fff;
+    text-transform: uppercase;
 }
 .hero h1 span {
     display: inline-block;
-    font-size: 35px;
+    font-size: .6em;
     color: #fff;
+    text-transform: lowercase;
 }
 #home {
     width: 100%;
@@ -830,7 +835,7 @@ Screenshots Intro
 ========================================================================== */
 .screenshots-intro {
     padding: 170px 0 100px 0;
-    background-color: #f6f7f9;
+    background-color: #fff;
 }
 .screenshots-intro h1 {
     margin-bottom: 20px;
